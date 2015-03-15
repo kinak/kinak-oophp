@@ -18,7 +18,7 @@ jQuery(function() {
       zindex = 0,
       pause = false,
       durationSlide = 4000,
-      durationPause = 9000,
+      durationPause = 5000,
       durationFirst = durationPause,
       easing='linear',
     
@@ -65,7 +65,7 @@ jQuery(function() {
         host    = wrapper.data('host');
         path    = wrapper.data('path');
         images  = wrapper.data('images');
-        nr      = images.length + 1;
+        nr      = images.length + 0;
 
         current = 0;
         wrapper.css('position', 'relative');
