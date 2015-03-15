@@ -1,53 +1,19 @@
 <?php
-/**
- * Config-file for kinak. Change settings here to affect installation.
- *
- */
- 
-/**
- * Set the error reporting.
- *
- */
+
 error_reporting(-1);              // Report all type of errors
 ini_set('display_errors', 1);     // Display all errors 
 ini_set('output_buffering', 0);   // Do not buffer outputs, write directly
- 
- 
 
-/**
- * Define kinak paths.
- *
- */
 define('kinak_INSTALL_PATH', __DIR__ . '/..');
 define('kinak_THEME_PATH', kinak_INSTALL_PATH . '/theme/render.php');
- 
- 
-/**
- * Include bootstrapping functions.
- *
- */
+
 include(kinak_INSTALL_PATH . '/src/bootstrap.php');
- 
- 
-/**
- * Start the session.
- *
- */
+
 session_name(preg_replace('/[^a-z\d]/i', '', __DIR__));
 session_start();
- 
- 
-/**
- * Create the kinak variable.
- *
- */
+
 $kinak = array();
- 
- 
-/**
- * Site wide settings.
- *
- */
+
 $kinak['lang']         = 'sv';
 $kinak['title_append'] = ' | kinak webbtemplate';
 

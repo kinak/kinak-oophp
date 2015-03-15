@@ -8,10 +8,8 @@
 <?php if(isset($inlinestyle)): ?><style><?=$inlinestyle?></style><?php endif; ?>
 <link rel='stylesheet' type='text/css' href='<?=$val?>'/>
 <?php endforeach; ?>
-
+<link href='http://fonts.googleapis.com/css?family=Overlock' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Varela+Round|Dosis|Overlock+SC' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Varela+Round|Dosis|Overlock+SC|Overlock' rel='stylesheet' type='text/css'>
 <script src='<?=$modernizr?>'></script>
 </head>
 <body>

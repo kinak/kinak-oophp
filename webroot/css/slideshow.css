@@ -3,9 +3,12 @@
  *
  */
 #slideshow {
-
 }
 
 .slideshow {
+}
 
+#slideshow img{
+	width: 950px;
+	height: 180px;
 }

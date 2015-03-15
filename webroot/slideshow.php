@@ -17,7 +17,7 @@ $kinak['title'] = "Slideshow för att testa JavaScript i kinak";
 
 $kinak['main'] = <<<EOD
 <div id="slideshow" class='slideshow' data-host="" data-path="img/me/" data-images='["me-1.jpg", "me-2.jpg", "me-4.jpg", "me-6.jpg"]'>
-<img src='img/me/me-6.jpg' width='950px' height='180px' alt='Me'/>
+<img src='img/me/me-6.jpg' alt='Me'/>
 </div>
 
 <h1>En slideshow med JavaScript</h1>
