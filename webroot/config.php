@@ -13,6 +13,7 @@ ini_set('display_errors', 1);     // Display all errors
 ini_set('output_buffering', 0);   // Do not buffer outputs, write directly
  
  
+
 /**
  * Define kinak paths.
  *
@@ -57,7 +58,7 @@ $kinak['header'] = <<<EOD
 EOD;
 
 $kinak['footer'] = <<<EOD
-<footer><span class='sitefooter'>Copyright: Hannes Öhman &reg; | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a> | <a href='https://github.com/kinak/kinak-wt'>GitHub</a></span></footer>
+<footer><span class='sitefooter'>Copyright: Hannes Öhman &reg; | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a> | <a href='https://github.com/kinak/kinak-oophp'>GitHub</a></span></footer>
 EOD;
 
 /**

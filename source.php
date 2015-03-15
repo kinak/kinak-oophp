@@ -2,9 +2,10 @@
 /**
  * Class for display sourcecode.
  *
- * @author Mikael Roos, me@mikaelroos.se
- * @copyright Mikael Roos 2010 - 2014
- * @link https://github.com/kinak/kinak-wt
+ * @author original template - Anax: Mikael Roos, me@mikaelroos.se
+ * @author kinak: Hannes Öhman, hannes.smed@gmail.com
+ * @copyright Hannes Öhman 2015
+ * @link https://github.com/kinak/kinak-oophp
  */
 class CSource {
 
